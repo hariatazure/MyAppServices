@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.7.8  Built on : May 19, 2018 (07:06:11 BST) --><serviceGroup>
+    <service name="BankCustomerService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="org.example.www.bankcustomerservice.BankCustomerServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">org.example.www.bankcustomerservice.BankCustomerServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="NewOperation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.example.org/BankCustomerService/">
+            <actionMapping>http://www.example.org/BankCustomerService/NewOperation</actionMapping>
+            <outputActionMapping>http://www.example.org/BankCustomerService/BankCustomerService/NewOperationResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
